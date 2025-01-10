@@ -24,7 +24,7 @@ img {
 p {
   text-align: center;
   font-family: Georgia, 'Times New Roman', Times, serif;
-  margin-right: 500px;
+  font-size: large;
 }
 
 
@@ -65,7 +65,8 @@ button {
 
 div {
   display: flex;
-  align-items: center;
+
+
 
 }
 
