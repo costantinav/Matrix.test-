@@ -69,12 +69,19 @@ form {
 button {
   border-radius: 0.5pc;
   padding: 5px;
+  box-shadow: 20px;
+
 }
 
-div {
-  display: flex;
-  justify-content: center;
+.button:hover {
+  background-color: #c51350;
+  transition: 3ms;
+  box-shadow: 20px;
+
+
 }
+
+
 
 ul {
   display: flex;
@@ -97,5 +104,10 @@ ul {
   p {
     display: block;
     margin: 0 auto;
+  }
+
+  section {
+    display: flex;
+    flex-direction: column;
   }
 }
