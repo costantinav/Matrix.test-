@@ -1,0 +1,9 @@
+header {grid-column-start:span 12;}
+
+
+body { grid-column-start: span 3;
+    grid-column-end: span 9;
+    
+
+
+}
