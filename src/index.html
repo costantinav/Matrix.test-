@@ -1,29 +1,32 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Gotham news</title>
+    <title>Gotham News</title>
      <link rel="stylesheet" href="./css/style.css" /></link>
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Iceberg&family=Londrina+Sketch&family=Qwitcher+Grypen:wght@400;700&display=swap" rel="stylesheet">
   </head>
 
   <body>
-    <h1> Gotham news</h1>
-    <hr>
+    <h1> Gotham News</h1>
     <nav> 
-     <button> Gotham </button>
-     <button> Arkham </button>
-       <button>Metropolis</button>
-      <button> Madrid</button>
+     <button class="buttonav"> <a href="https://es.wikipedia.org/wiki/Gotham_City" target="_blank"> Gotham </a> </button>
+     <button class="buttonav"> <a href="https://es.wikipedia.org/wiki/Manicomio_Arkham" target="_blank"> Arkham Asylum</a></button>
+       <button class="buttonav"> <a href="https://it.wikipedia.org/wiki/Metropolis_(DC_Comics)" target="_blank"> Metropolis</a></button>
+      <button class="buttonav"> <a href="https://it.wikipedia.org/wiki/Madrid" target="_blank">Madrid</a></button>
     </nav>
- <hr>
  <h2>Batman lucha contra villanos en Madrid: una noche de héroes y caos</h2>
    <p>Madrid, 12 de enero de 2025 – La capital española fue escenario de una sorprendente noche de acción cuando Batman apareció para enfrentar a un grupo de villanos que sembraron el caos en lugares emblemáticos como la Puerta del Sol y el Retiro.
 Liderados por el excéntrico "Joker Ibérico" y su aliada "La Reina del Laberinto", los criminales desataron disturbios con incendios y trampas por la ciudad. Sin embargo, el Caballero Oscuro frustró sus planes en un enfrentamiento épico frente al Palacio Real, entregando a los villanos a las autoridades.
 Testigos describieron al héroe luchando con destreza y utilizando su alta tecnología para proteger a los ciudadanos. "Fue como ver una película en la vida real", comentó un residente de Lavapiés.
 Aunque se desconoce por qué Batman eligió Madrid, se especula que persigue una red criminal internacional. Tras devolver la calma, el héroe desapareció tan misteriosamente como llegó, dejando a los madrileños con una historia inolvidable y un nuevo motivo para sentirse seguros.
 </p>
-    <img src="./css/batman.jpeg">
-    <img src="./css/batamn2.jpeg">
- <img src="./css/joker.jpeg">
+<section>
+    <img class="photos" src="css/img/batamn2.jpeg">
+<img class="photos" src="css/img/joker.jpeg">
+  <img class="photos"  src="css/img/batman.jpeg">
+ </section>
  <fieldset>
   <legend>¿Te has encontrado con Batman? Cuéntanos cómo fue tu experiencia.</legend>
    <form method="get">
@@ -31,18 +34,18 @@ Aunque se desconoce por qué Batman eligió Madrid, se especula que persigue una
     <label for="name">Nombre:</label>
     <input type="text" id="name" name="user_name" />
   </p>
-  <p>
+  <p >
     <label for="mail">Email:</label>
-    <input type="email" id="mail" name="user_email" />
+    <input type="email" id="mail" name="user_email" class="input" />
   </p>
   <p>
     <label for="msg">Message</label>
-    <textarea id="msg" name="user_message" placeholder="Tu experiencia aquì"></textarea>
+    <textarea class="buttonav" id="msg" name="user_message" placeholder="Tu experiencia aquì"></textarea>
      </p>
   <label>Do you agree to the terms?</label>
     <label><input type="radio" name="radio" value="yes" /> Yes</label>
     <label><input type="radio" name="radio" value="no" /> No</label>
-<p> <button>Envia tu experiencia</button></p> 
+<p> <button class="buttonsub">Envia tu experiencia</button></p> 
     </fieldset>
     <footer> Coded by Costantina Violante</footer>
   </body>

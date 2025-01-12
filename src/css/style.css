@@ -1,113 +1,76 @@
 body {
-  background: #ffcbcb;
-  color: #132743;
-  padding: 50px;
-}
-
-header {
-  text-align: center;
-  font-size: xx-large;
+  font-family: "Iceberg",
+    serif;
+  ,
+  serif;
+  font-size: 20px;
+  color: yellow;
+  background-color: black;
 }
 
 h1 {
   text-align: center;
+  font-size: 75px;
 }
 
+nav {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  gap: 125px;
+  border-style: dashed;
+  padding: 25px;
 
-img {
-  width: 250px;
+}
+
+.buttonav {
+  font-size: 25px;
+  font-family: "Iceberg",
+    serif;
   padding: 20px;
-  display: block;
-  margin: auto;
-  border-radius: 25px;
+  border-radius: 10px;
+  background-color: yellow;
+  border-style: dashed;
+}
 
+.photos {
+  width: 350px;
+  border-radius: 25px;
+  padding: 25px;
 }
 
 section {
-  padding: 30px;
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
+
 }
 
-
-p {
+footer {
   text-align: center;
-
-}
-
-
-fieldset {
-  border-radius: 10px;
-  padding: 50px;
-  display: grid;
-  flex-direction: column;
-  gap: 20px;
-}
-
-.notizie {
-  text-align: left;
-}
-
-ol {
-  padding-bottom: 10px;
+  padding: 20px;
 }
 
 input {
-  border-radius: 5px;
-  outline: 0.5px;
+  border-radius: 20px;
+  background-color: yellow;
+  border-style: dotted;
+  color: black;
 }
 
-textarea {
-  border-radius: 5px;
-}
-
-form {
-  background-color: #ffb5b5;
-  border-radius: 10px;
-}
-
-button {
-  border-radius: 0.5pc;
-  padding: 5px;
-  box-shadow: 20px;
+fieldset {
+  border-radius: 25px;
+  border-style: dotted;
+  border-color: yellow;
 
 }
 
-.button:hover {
-  background-color: #c51350;
-  transition: 3ms;
-  box-shadow: 20px;
-
-
-}
-
-
-
-ul {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  gap: 50px;
-  font-size: 20px;
-
-}
-
-@media screen and (max-width: 769px) {
-  body {
-    nav {
-      grid-row-start: span 12;
-      flex-direction: column;
-      font-size: 45px;
-    }
-  }
-
-  p {
-    display: block;
-    margin: 0 auto;
-  }
-
-  section {
-    display: flex;
-    flex-direction: column;
-  }
+.buttonsub {
+  font-family: "Iceberg",
+    serif;
+  ;
+  background-color: yellow;
+  border-radius: 25px;
+  border-style: dotted;
+  border-color: black;
+  padding: 15px;
 }
