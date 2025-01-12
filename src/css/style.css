@@ -13,6 +13,10 @@ h1 {
   font-size: 75px;
 }
 
+h2 {
+  text-align: center;
+}
+
 nav {
   text-align: center;
   display: flex;
@@ -61,7 +65,7 @@ fieldset {
   border-radius: 25px;
   border-style: dotted;
   border-color: yellow;
-
+  padding: 10px 50px 15px;
 }
 
 .buttonsub {
@@ -73,4 +77,45 @@ fieldset {
   border-style: dotted;
   border-color: black;
   padding: 15px;
+}
+
+.buttonsub:hover {
+  background-color: black;
+  color: yellow;
+  border-style: dotted;
+  border-color: yellow;
+  transition: 2ms;
+}
+
+.buttonav:hover {
+  background-color: black;
+  color: yellow;
+  border-style: dotted;
+  border-color: yellow;
+  transition: 2ms;
+}
+
+.logo {
+  padding: 20px;
+  width: 350px;
+  float: right
+}
+
+@media screen and (max-width:769px) {
+  nav {
+    gap: 75px;
+    padding: 30px;
+
+  }
+
+  .buttonav {
+    font-size: 20px;
+  }
+
+  section {
+    display: flex;
+    flex-wrap: wrap;
+    border-radius: 10px;
+  }
+
 }
