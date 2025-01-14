@@ -1,0 +1,9 @@
+body {
+    background-color: black;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+}
+
+header {
+    grid-column-start: 12 span;
+}
