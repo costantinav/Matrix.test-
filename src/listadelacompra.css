@@ -1,0 +1,23 @@
+@media screen and (max-width:769px) {
+    form {
+        display: grid;
+        grid-template-columns: repeat(5);
+    }
+
+    nav {}
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+nav {
+    text-align: left;
+    margin-right: 15px;
+    padding: 25px;
+}
+
+ul {
+    list-style: none;
+}

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de la compra</title>
+     <link rel="stylesheet" href="listadelacompra.css" /></link>
+         <script src="./listadecompra.js"></script>
+</head>
+<body>
+     <h1>Shopping list</h1>
+    <main>
+    <nav>
+        <ul>
+            <li>Opcion de menù 1</li>
+               <li>Opcion de menù 2</li>
+                  <li>Opcion de menù 3</li>
+                     <li>Opcion de menù 4</li>
+                        <li>Opcion de menù 5</li>     
+        </ul>
+    </nav>
+    <form>
+        <fieldset class="legend">
+        <legend>Add to the shopping list</legend>
+        <input type="text" id="articulo" placeholder="nuevo artículo" list="productos" autocomplete="off" />
+          <input type="number" id="qty" placeholder="0" min="0" max="10" step="1" />
+          <input type="number" id="precio" placeholder="0€" min="0" max="100" step="1" />
+       <button type="button" id="nuevoArticulo" onclick="addToShoppingList()">Add</button>
+       <button type="reset" id="nuevaLista" onclick="resetShoppingList()">New Shopping list</button>
+        </fieldset>
+        <fieldset>
+    </form>
+    <table border="1">
+        <thead>
+            <tr>
+                <th>Item</th>
+                 <th>Amount</th>
+                  <th>Price</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr><td>Imported Truffle Bread</td><td>2</td><td>$50</td></tr>
+            <tr><td>Organic Almond Milk</td><td>4</td><td>$12</td></tr>
+            <tr><td>Free-Range Eggs</td><td>2 dozen</td><td>$18</td></tr>
+            <tr><td>Jasmine Rice</td><td>5 kg</td><td>$25</td></tr>
+            <tr><td>Exotic Fruits</td><td>3 kg</td><td>$60</td></tr>
+            <tr><td>Heirloom Vegetables</td><td>5 kg</td><td>$45</td></tr>
+            <tr><td>Wagyu Beef</td><td>3 kg</td><td>$300</td></tr>
+            <tr><td>Atlantic Bluefin Tuna</td><td>2 kg</td><td>$500</td></tr>
+            <tr><td>Vintage Wine</td><td>3 bottles</td><td>$750</td></tr>
+            <tr><td>Artisan Cheese Selection</td><td>1 kg</td><td>$80</td></tr>
+            <thead>
+            <tr>
+            </tr>
+        </thead>
+        </tbody>
+            </tr>
+        </thead>
+    </table>
+    </fieldset>
+    </main>
+</body>
+</html>
+     
