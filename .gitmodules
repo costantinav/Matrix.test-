@@ -4,3 +4,6 @@
 [submodule "Repositorio.2"]
 	path = NEOLAND
 	url = https://github.com/costantinav/Repositorio.2-.git
+[submodule "pokedek"]
+	path = NEOLANDS/src
+	url = https://github.com/fanzeyi/pokemon.json.git

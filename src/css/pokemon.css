@@ -1,9 +1,88 @@
+.debug {
+    padding: 50px;
+    background-color: rgb(245, 245, 245)
+}
+
 body {
-    background-color: black;
     display: grid;
     grid-template-columns: repeat(12, 1fr);
+    font-family: "Bangers", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 25px;
+    background-color: rgb(97, 97, 97);
 }
 
 header {
-    grid-column-start: 12 span;
+    grid-column: 4/12;
+}
+
+ol {
+    background-color: rgb(97, 97, 97);
+    ;
+    display: flex;
+    justify-content: space-evenly;
+    column-gap: 1px;
+
+}
+
+main {
+    display: grid;
+    grid-column: 2/12;
+
+}
+
+nav {
+    padding: 15px;
+
+}
+
+form {
+    display: flex;
+    flex-wrap: wrap-reverse;
+    background-color: rgb(97, 97, 97);
+    padding: 20px;
+    align-content: center;
+}
+
+fieldset {
+    padding: 20px;
+}
+
+button {
+    padding: 15px;
+    font-family: "Bangers",
+        serif;
+    ;
+    font-size: 15px;
+}
+
+caption {
+    padding: 20px;
+}
+
+p {
+    text-align: center;
+    background-color: #8bc34a;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+
+h1 {
+    text-align: center;
+}
+
+.Veneno {
+    background-color: #ba80ca;
+
+}
+
+.Planta {
+    background-color: #9ccc50;
+}
+
+.pika {
+    display: block;
+    max-width: 100px;
 }
